@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          crossorigin="anonymous" />
+          
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>M4 W3 D2 Practice</title>
+      </head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <span class="fs-5 d-none d-sm-inline">Insert or edit product</span>
+                </a>
+                <form id ="form">
+                  <div class="form-row">                
+                    <div class="form-group">
+                      <label for="section-name">Name</label>
+                      <input id="section-name" type="text" class="form-control" placeholder="name">
+                    </div>
+                  </div>
+                  <div class="form-group">  
+                    <label for="section-brand">Brand</label>
+                    <input id="section-brand" type="text" class="form-control" placeholder="brand">
+                  </div>
+                  <div class="form-group">
+                    <label for="section-img">imageUrl</label>
+                    <input id="section-img" type="text" class="form-control" placeholder="URL">
+                  </div>
+                  <p class="form-row">
+                    <div class="form-group">
+                      <label for="section-price col-md">Price</label>
+                      <input id="section-price" type="number" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="section-desc">Description</label>
+                      <input id="section-desc" type="text" class="form-control" placeholder="Description">
+                    </div>
+                    <button id="formClick" onclick="SubmitItem()" type="submit" class="btn btn-primary">Submit</button>    
+                  </p>
+                  
+                </form>
+                <hr>
+                <div class="dropdown pb-4">
+                    <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                        <span class="d-none d-sm-inline mx-1">Admin</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col py-3">
+          <div class="text-center">
+          </div>
+      
+          <div id="images" class="row">
+            
+          </div>
+        </div>
+    </div>
+</div>
+
+ 
+
+   <!--Main layout-->
+  <!--
+   <div class="jumbotron text-center">
+    <span class="font-italic font-weight-bold">BOOKAHOLIC.COM</span>
+    <p class="p-4"> your trusted source of reading material</p>
+    </div>
+  -->
+  
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+</script>
+
+<script>
+</script>
+<script src="script.js"></script>
+
+
+   
+</body>
+</html>
+
